@@ -119,7 +119,7 @@ var randnum = require('random-number-between');
 //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 // qna for smalltalk
 
-var QnAClient = require("/home/cts565637/FPL/ITsupport/lib/client.js");
+var QnAClient = require("./lib/client.js");
 
 var qnaClient = new QnAClient({
     knowledgeBaseId: '9129e861-4d4e-4d96-bec3-6e9e15a56c2a',
